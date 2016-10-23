@@ -5,8 +5,10 @@ import './font-awesome.css';
 
 class App extends Component {
   render() {
+    const images = [0,1,2,3,4,5];
+    let randImage = images[Math.floor(Math.random() * images.length)];
     return (
-      <div className="App">
+      <div className="App" style={{ backgroundImage: `url(${randImage}.jpg)`}}>
         <div className="rightBox">
           <div className="myImage"></div>
           <div className="position">
