@@ -4,13 +4,27 @@ import './App.css';
 import './font-awesome.css';
 
 class App extends Component {
-  render() {
+  state = {
+    appStyle: null
+  }
+  componentDidMount() {
     const images = [0,1,2,3,4,5];
     let randImage = images[Math.floor(Math.random() * images.length)];
     const newBackImage = new Image();
     newBackImage.src = `${randImage}.jpg`;
+    newBackImage.onload = () => {
+      this.setState({
+        appStyle: {
+          backgroundImage: `url(${newBackImage.src})`,
+          display: 'flex'
+        }
+      })
+    }
+  }
+  render() {
+    const { appStyle } = this.state;
     return (
-      <div className="App" style={{ backgroundImage: `url(${newBackImage.src})`}}>
+      <div className="App" style={appStyle}>
         <div className="rightBox">
           <div className="myImage"></div>
           <div className="position">
