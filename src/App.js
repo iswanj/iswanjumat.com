@@ -34,9 +34,10 @@ class App extends Component {
           <div className="social-icons">
             <ul>
               <li><a href="https://twitter.com/TuanIswan" className="twitter" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-              <li><a href="https://www.facebook.com/iswan1987" className="facebook" target="_blank"><i className="fa fa-facebook-official" aria-hidden="true"></i></a></li>
               <li><a href="https://lk.linkedin.com/in/iswanjumat" className="linkedin" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
               <li><a href="https://github.com/iswanj" className="github" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/iswan1987" className="facebook" target="_blank"><i className="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/iswanjumat/" className="instagram" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
             </ul>
           </div>
         </div>
