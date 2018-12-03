@@ -73,7 +73,7 @@
   text-align: center;
   text-decoration: none;
 }
-/*twitter facebook linkedin github*/
+/*twitter facebook linkedin github instagram*/
 .social-icons li a.twitter:hover, .social-icons li a.twitter:active {
   color: #1da1f2;
 }
@@ -85,4 +85,7 @@
 }
 .social-icons li a.github:hover, .social-icons li a.github:active {
   color: #000;
+}
+.social-icons li a.instagram:hover, .social-icons li a.instagram:active {
+  color: #E1306C;
 }
